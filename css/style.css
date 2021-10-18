@@ -27,9 +27,14 @@ box-sizing: border-box;
 .red {
     background-color: red;
 }
-.green {background-color: green;}
+.green {
+    background-color: green;
+}
 .absolute {
     position: absolute;
+}
+.display-none {
+    display: none;
 }
 
 /* exposition-boxes */
@@ -40,6 +45,12 @@ box-sizing: border-box;
 }
 .exposition-box-img {
     width: 100%;
+}
+.exposition-box:hover .image-hover-appear {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 /* info container */
