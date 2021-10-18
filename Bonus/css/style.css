@@ -1,0 +1,95 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.body {
+    font-size: 100%;
+}
+.container {
+    width: 80%;
+    margin: 1em auto;
+    font-family: 'Roboto', sans-serif;
+}
+/* utilities */
+.bold {
+    font-weight: bold;
+}
+.debug-color {
+    /* background-color: red; */
+    /* width: 33%; */
+    /* height:300px; */
+    /* margin: 1px; */
+}
+.line-through{
+    text-decoration: line-through;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.absolute {
+    position: absolute;
+}
+.display-none {
+    display: none;
+}
+
+/* exposition-boxes */
+.exposition-box {
+    width: calc(33% - 0.8em);
+    float: left;
+    position: relative;
+    margin: 0.4em;
+}
+.exposition-box-img {
+    width: 100%;
+}
+.exposition-box:hover .image-hover-appear {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* info container */
+.info-container{
+    color: black;
+}
+.brand,
+.price {
+    font-size: 0.6em;
+}
+.model {
+    font-size: 0.65em;
+}
+.price {
+    color: red;
+}
+.price span {
+    color: black;
+    font-weight: normal;
+}
+
+/* cuore selezione preferito */
+.heart{
+    right: 0;
+    top: 0.6em;
+    padding: 0.3em 0.7em;
+    background-color: white;
+}
+
+/* discount & sostenibilità */
+.discount-sostenibilità-container{
+    left: 0;
+    bottom: 3em;
+}
+.discount,
+.sostenibilità {
+    display: inline-block;
+    color: white;
+    font-size: 0.5em;
+    padding: 0.4em;
+}
