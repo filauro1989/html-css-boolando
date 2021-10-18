@@ -6,16 +6,20 @@ box-sizing: border-box;
 
 .container {
     width: 80%;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 
 .debug-color {
     background-color: red;
-    width: 33%;
-    height:300px;
+    /* width: 33%; */
+    /* height:300px; */
     margin: 1px;
 }
 
 .exposition-box {
+    width: 33%;
     float: left;
+}
+.exposition-box-img {
+    width: 100%;
 }
