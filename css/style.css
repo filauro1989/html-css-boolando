@@ -39,9 +39,10 @@ box-sizing: border-box;
 
 /* exposition-boxes */
 .exposition-box {
-    width: 33%;
+    width: calc(33% - 0.8em);
     float: left;
     position: relative;
+    margin: 0.4em;
 }
 .exposition-box-img {
     width: 100%;
@@ -62,7 +63,7 @@ box-sizing: border-box;
     font-size: 0.6em;
 }
 .model {
-    font-size: 0.6em;
+    font-size: 0.65em;
 }
 .price {
     color: red;
