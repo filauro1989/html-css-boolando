@@ -24,6 +24,13 @@ box-sizing: border-box;
 .line-through{
     text-decoration: line-through;
 }
+.red {
+    background-color: red;
+}
+.green {background-color: green;}
+.absolute {
+    position: absolute;
+}
 
 /* exposition-boxes */
 .exposition-box {
@@ -54,10 +61,23 @@ box-sizing: border-box;
     font-weight: normal;
 }
 
+/* cuore selezione preferito */
 .heart{
-    position: absolute;
     right: 0;
     top: 0.6em;
     padding: 0.3em 0.7em;
     background-color: white;
+}
+
+/* discount & sostenibilità */
+.discount-sostenibilità-container{
+    left: 0;
+    bottom: 3em;
+}
+.discount,
+.sostenibilità {
+    display: inline-block;
+    color: white;
+    font-size: 0.5em;
+    padding: 0.4em;
 }
