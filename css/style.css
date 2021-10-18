@@ -8,6 +8,7 @@ box-sizing: border-box;
 }
 .container {
     width: 80%;
+    max-width: 800px;
     margin: 1em auto;
     font-family: 'Roboto', sans-serif;
 }
