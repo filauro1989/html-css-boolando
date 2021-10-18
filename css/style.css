@@ -29,6 +29,7 @@ box-sizing: border-box;
 .exposition-box {
     width: 33%;
     float: left;
+    position: relative;
 }
 .exposition-box-img {
     width: 100%;
@@ -51,4 +52,12 @@ box-sizing: border-box;
 .price span {
     color: black;
     font-weight: normal;
+}
+
+.heart{
+    position: absolute;
+    right: 0;
+    top: 0.6em;
+    padding: 0.3em 0.7em;
+    background-color: white;
 }
