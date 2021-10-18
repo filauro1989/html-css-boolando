@@ -3,23 +3,52 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-
+.body {
+    font-size: 100%;
+}
 .container {
     width: 80%;
     margin: 1em auto;
+    font-family: 'Roboto', sans-serif;
 }
-
+/* utilities */
+.bold {
+    font-weight: bold;
+}
 .debug-color {
-    background-color: red;
+    /* background-color: red; */
     /* width: 33%; */
     /* height:300px; */
-    margin: 1px;
+    /* margin: 1px; */
+}
+.line-through{
+    text-decoration: line-through;
 }
 
+/* exposition-boxes */
 .exposition-box {
     width: 33%;
     float: left;
 }
 .exposition-box-img {
     width: 100%;
+}
+
+/* info container */
+.info-container{
+    color: black;
+}
+.brand,
+.price {
+    font-size: 0.6em;
+}
+.model {
+    font-size: 0.6em;
+}
+.price {
+    color: red;
+}
+.price span {
+    color: black;
+    font-weight: normal;
 }
